@@ -16,7 +16,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3XW-ta-PO9"/>
-                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="对号" translatesAutoresizingMaskIntoConstraints="NO" id="IFb-S1-3et">
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconSelected" translatesAutoresizingMaskIntoConstraints="NO" id="IFb-S1-3et">
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="8or-RI-SVv"/>
                             <constraint firstAttribute="width" constant="20" id="Z4F-mI-vK3"/>

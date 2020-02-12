@@ -26,7 +26,7 @@
     } else {
         self.navigationItem.title = @"选择相册";
     }
-    UIBarButtonItem *leftBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"2"] style:UIBarButtonItemStylePlain target:self action:@selector(leftButton)];
+    UIBarButtonItem *leftBarItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"IconBack"] style:UIBarButtonItemStylePlain target:self action:@selector(leftButton)];
     self.navigationItem.leftBarButtonItem = leftBarItem;
     
     UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:self action:@selector(leftButton)];

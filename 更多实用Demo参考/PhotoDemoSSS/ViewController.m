@@ -57,7 +57,9 @@ static NSInteger maxNumber = 6;//能选择的最大照片数量(包括拍照和�
             UIAlertController *albumalertController = [UIAlertController alertControllerWithTitle:@"选择照片" message:nil preferredStyle:UIAlertControllerStyleActionSheet];
             UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
             __block  NSUInteger sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-            UIAlertAction *albumAction = [UIAlertAction actionWithTitle:@"从相册选择" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {//从相册选择
+            UIAlertAction *albumAction = [UIAlertAction actionWithTitle:@"从相册选择" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action)
+            {
+                //从相册选择
                 PHAuthorizationStatus status = [PHPhotoLibrary authorizationStatus];
                 if (status == PHAuthorizationStatusDenied) {//用户拒绝访问
                     UIAlertController *settingalertController = [UIAlertController alertControllerWithTitle:@"友情提示" message:@"您的相册权限尚未开启,是否前去设置-隐私-照片中开启相册权限?" preferredStyle:UIAlertControllerStyleAlert];
@@ -201,14 +203,21 @@ static NSInteger maxNumber = 6;//能选择的最大照片数量(包括拍照和�
         options.deliveryMode = PHImageRequestOptionsDeliveryModeHighQualityFormat;
         // 同步获得图片, 只会返回1张图片
         options.synchronous = YES;
-        options.resizeMode = PHImageRequestOptionsResizeModeExact;
+        //options.resizeMode = PHImageRequestOptionsResizeModeExact;
+        options.resizeMode = PHImageRequestOptionsResizeModeNone;;
         options.networkAccessAllowed = NO;
         //PHImageManagerMaximumSize为原图尺寸, 可以自定义尺寸CGSizeMake(180, 180)
         if ([Info.userInfo[@"assetsArray"] count] > 0) {
             for (int i = 0; i < [Info.userInfo[@"assetsArray"] count]; i++) {
                 PHAsset *asset = Info.userInfo[@"assetsArray"][i];
-                [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:PHImageManagerMaximumSize contentMode:PHImageContentModeAspectFill options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+                [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:PHImageManagerMaximumSize contentMode:PHImageContentModeAspectFill options:options resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info)
+                {
                     
+                    //UIImage * image = [info objectForKey:UIImagePickerControllerOriginalImage];
+                    if (nil == result) {
+                        NSLog(@"....is nil");
+                        return;
+                    }
                     [_dataArray addObject:result];
                     
                     if ([asset isEqual:[Info.userInfo[@"assetsArray"] lastObject]]) {

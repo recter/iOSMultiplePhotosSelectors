@@ -17,8 +17,8 @@
 		835387B31D9BF4A8002F692C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E65741D95182700A9B5B0 /* AppDelegate.m */; };
 		835387B51D9BF4A8002F692C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835387991D9BF3CB002F692C /* ViewController.m */; };
 		835387C21D9BF4A8002F692C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8E65711D95182700A9B5B0 /* main.m */; };
-		8395E4011D9CCCD800629319 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3EC1D9CCCD800629319 /* 2@2x.png */; };
-		8395E4021D9CCCD800629319 /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3ED1D9CCCD800629319 /* 2@3x.png */; };
+		8395E4011D9CCCD800629319 /* IconBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3EC1D9CCCD800629319 /* IconBack@2x.png */; };
+		8395E4021D9CCCD800629319 /* IconBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3ED1D9CCCD800629319 /* IconBack@3x.png */; };
 		8395E4031D9CCCD800629319 /* DetailsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395E3F01D9CCCD800629319 /* DetailsCollectionViewCell.m */; };
 		8395E4041D9CCCD800629319 /* DetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3F11D9CCCD800629319 /* DetailsCollectionViewCell.xib */; };
 		8395E4051D9CCCD800629319 /* SeleAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395E3F31D9CCCD800629319 /* SeleAlbumTableViewCell.m */; };
@@ -27,8 +27,8 @@
 		8395E4081D9CCCD800629319 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395E3F91D9CCCD800629319 /* UserData.m */; };
 		8395E4091D9CCCD800629319 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395E3FC1D9CCCD800629319 /* DetailsViewController.m */; };
 		8395E40A1D9CCCD800629319 /* SeleceAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8395E3FE1D9CCCD800629319 /* SeleceAlbumViewController.m */; };
-		8395E40B1D9CCCD800629319 /* 对号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3FF1D9CCCD800629319 /* 对号@2x.png */; };
-		8395E40C1D9CCCD800629319 /* 对号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E4001D9CCCD800629319 /* 对号@3x.png */; };
+		8395E40B1D9CCCD800629319 /* IconSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E3FF1D9CCCD800629319 /* IconSelected@2x.png */; };
+		8395E40C1D9CCCD800629319 /* IconSelected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8395E4001D9CCCD800629319 /* IconSelected@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,8 +69,8 @@
 		1B8E65A61D95188800A9B5B0 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
 		835387981D9BF3CB002F692C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		835387991D9BF3CB002F692C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8395E3EC1D9CCCD800629319 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
-		8395E3ED1D9CCCD800629319 /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
+		8395E3EC1D9CCCD800629319 /* IconBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconBack@2x.png"; sourceTree = "<group>"; };
+		8395E3ED1D9CCCD800629319 /* IconBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconBack@3x.png"; sourceTree = "<group>"; };
 		8395E3EF1D9CCCD800629319 /* DetailsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsCollectionViewCell.h; sourceTree = "<group>"; };
 		8395E3F01D9CCCD800629319 /* DetailsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsCollectionViewCell.m; sourceTree = "<group>"; };
 		8395E3F11D9CCCD800629319 /* DetailsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		8395E3FC1D9CCCD800629319 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		8395E3FD1D9CCCD800629319 /* SeleceAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeleceAlbumViewController.h; sourceTree = "<group>"; };
 		8395E3FE1D9CCCD800629319 /* SeleceAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeleceAlbumViewController.m; sourceTree = "<group>"; };
-		8395E3FF1D9CCCD800629319 /* 对号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号@2x.png"; sourceTree = "<group>"; };
-		8395E4001D9CCCD800629319 /* 对号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号@3x.png"; sourceTree = "<group>"; };
+		8395E3FF1D9CCCD800629319 /* IconSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSelected@2x.png"; sourceTree = "<group>"; };
+		8395E4001D9CCCD800629319 /* IconSelected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconSelected@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 				1B8E65741D95182700A9B5B0 /* AppDelegate.m */,
 				835387981D9BF3CB002F692C /* ViewController.h */,
 				835387991D9BF3CB002F692C /* ViewController.m */,
-				8395E3EB1D9CCCD800629319 /* Class */,
+				8395E3EB1D9CCCD800629319 /* ImagePicker */,
 				1B8E65791D95182700A9B5B0 /* Main.storyboard */,
 				1B8E657C1D95182700A9B5B0 /* Assets.xcassets */,
 				1B8E657E1D95182700A9B5B0 /* LaunchScreen.storyboard */,
@@ -191,20 +191,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8395E3EB1D9CCCD800629319 /* Class */ = {
+		8395E3EB1D9CCCD800629319 /* ImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				8395E3EC1D9CCCD800629319 /* 2@2x.png */,
-				8395E3ED1D9CCCD800629319 /* 2@3x.png */,
 				8395E3EE1D9CCCD800629319 /* Cell */,
 				8395E3F51D9CCCD800629319 /* customHeader.h */,
 				8395E3F61D9CCCD800629319 /* CustomStoryboard.storyboard */,
+				8395E3EC1D9CCCD800629319 /* IconBack@2x.png */,
+				8395E3ED1D9CCCD800629319 /* IconBack@3x.png */,
+				8395E3FF1D9CCCD800629319 /* IconSelected@2x.png */,
+				8395E4001D9CCCD800629319 /* IconSelected@3x.png */,
 				8395E3F71D9CCCD800629319 /* NSObject */,
 				8395E3FA1D9CCCD800629319 /* ViewController */,
-				8395E3FF1D9CCCD800629319 /* 对号@2x.png */,
-				8395E4001D9CCCD800629319 /* 对号@3x.png */,
 			);
-			path = Class;
+			path = ImagePicker;
 			sourceTree = "<group>";
 		};
 		8395E3EE1D9CCCD800629319 /* Cell */ = {
@@ -307,7 +307,7 @@
 				TargetAttributes = {
 					1B8E656C1D95182700A9B5B0 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 6225ML2ZVY;
+						DevelopmentTeam = W7JG55SPDF;
 						ProvisioningStyle = Automatic;
 					};
 					1B8E65851D95182700A9B5B0 = {
@@ -327,6 +327,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -348,12 +349,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8E65801D95182700A9B5B0 /* LaunchScreen.storyboard in Resources */,
-				8395E40C1D9CCCD800629319 /* 对号@3x.png in Resources */,
+				8395E40C1D9CCCD800629319 /* IconSelected@3x.png in Resources */,
 				1B8E657D1D95182700A9B5B0 /* Assets.xcassets in Resources */,
-				8395E4021D9CCCD800629319 /* 2@3x.png in Resources */,
+				8395E4021D9CCCD800629319 /* IconBack@3x.png in Resources */,
 				1B8E657B1D95182700A9B5B0 /* Main.storyboard in Resources */,
-				8395E40B1D9CCCD800629319 /* 对号@2x.png in Resources */,
-				8395E4011D9CCCD800629319 /* 2@2x.png in Resources */,
+				8395E40B1D9CCCD800629319 /* IconSelected@2x.png in Resources */,
+				8395E4011D9CCCD800629319 /* IconBack@2x.png in Resources */,
 				8395E4061D9CCCD800629319 /* SeleAlbumTableViewCell.xib in Resources */,
 				8395E4071D9CCCD800629319 /* CustomStoryboard.storyboard in Resources */,
 				8395E4041D9CCCD800629319 /* DetailsCollectionViewCell.xib in Resources */,
@@ -536,12 +537,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6225ML2ZVY;
+				DEVELOPMENT_TEAM = W7JG55SPDF;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PhotoDemoSSS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ALiBaiChuan.PhotoDemoSSS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bspace.pictest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -551,12 +552,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6225ML2ZVY;
+				DEVELOPMENT_TEAM = W7JG55SPDF;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = PhotoDemoSSS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ALiBaiChuan.PhotoDemoSSS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bspace.pictest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
